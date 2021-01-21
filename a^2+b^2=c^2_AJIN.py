@@ -9,7 +9,6 @@ for a in range(0, 1001):
 			print("a, b, c:%d, %d，%d" % (a, b, c))
 end_time = time.time()
 print("times:%d" % (end_time-start_time))
-print("finished")
 
 
 

@@ -16,6 +16,7 @@ if __name__ == "__main__":
             right = index+1
     print(alist[left:right])
     print("Masterpiece")
+    dd
 
 
 

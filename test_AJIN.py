@@ -15,7 +15,7 @@ if __name__ == "__main__":
             max_sum = sum_num
             right = index+1
     print(alist[left:right])
-    ss
+    print("Masterpiece")
 
 
 

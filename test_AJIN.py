@@ -17,25 +17,5 @@ if __name__ == "__main__":
     print(alist[left:right])
 
 
-"""
-CREATE DATABASE student;
-DROP DATABASE test;
-USE test;
-SHOW TABLES;
-CREATE TABLE students (id BIINT NOT NULL AUTO_INCREMENT, class_id BIGINT NOT NULL, PRIMARY KEY (id));
-INSERT INTO student (class_id, average) SELECT class_id AVG(score) FROM students GROUP BY class_id;
-ALTER TABLE x ADD COLUMN birth VARCHAR(10) NOT NULL;
-REPLACE INTO x (id,class_id) VALUES (1,1);
-SELECT id,gender FROM x ORDER BY score;
-ORDER BY score DESC/ASC
-LIMIT M OFFSET N
-UPDATE x SET name= score= WHERE id>=5 AND id<=7;
 
-BEGIN;
-UPDATE x SET balance = balance-100 WHERE id=1;
-
-COMMIT;
-ROLLBACK;
-
-"""
 
